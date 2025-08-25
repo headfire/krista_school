@@ -1,55 +1,66 @@
 Contents
 
 1 Начало работы
-- Среда
-- Writing a first Java program
-- Compiling & running programs
-- Creating a variable
-- Recognizing data types
-- Creating constants
-- Adding comments
-- Troubleshooting problems
+- Среда программирования VSCode
+- Написание первой программы
+- Компилирование и запуск
+- Создание перменных
+- Типы данных
+- Добавление комментариев
+- Решение проблем и отладка
 
-2 Performing operations
-- Doing arithmetic
-- Assigning values
-- Comparing values
-- Assessing logic
-- Examining conditions
-- Setting precedence
-- Escaping literals
+2 Выполнение операций
+- Арифметические операции
+- Присвоение переменным
+- Сравнение зачений
+- Логические переменные
+- Тренарый оператор
+- Приоритет операций
 
-3 Making statements
-- Branching with if
-- Branching alternatives
-- Switching branches
-- Looping for
-- Looping while true
-- Doing do-while loops
-- Breaking out of loops
-- Returning control
+3 Управление выполнением
+- Оператор ветвления if
+- Ветка else
+- Оператор switch 
+- Цикл for
+- Цикл while
+- Цикл do-while
+- Команды break и continue
 
-4 Directing values
-- Casting type values
-- Creating variable arrays
-- Passing an argument
-- Passing multiple arguments
-- Looping through elements
-- Changing element values
-- Adding array dimensions
-- Catching exceptions
+4 Типы данных
+- Преобразования типов
+- Математические функции
+- Округление
+- Случайные числа
+- Форматирование чисел
 
-5 Manipulating data
-- Doing mathematics
-- Rounding numbers
-- Generating random numbers
-- Managing strings
-- Comparing strings
-- Searching strings
-- Manipulating characters
+5 Работа со строками
+- Работа со стоками
+- Сравнение строк
+- Поиск в строках
+- Работа с символами
 
-6 Creating classes
-- Forming multiple methods
+6 Массивы
+- Что такое массивы
+- Создание и инициализация
+- Итерации по массиву
+- Сортировка и поиск
+- Многомерные массивы
+
+7. Контейнерные типы данных
+- List
+- Map
+- Set
+- Примеры использования
+
+7 Ввод-вывод
+- Стандартный ввод-вывод
+- Перенаправление OC
+- Организация конвееров
+- Работа с файловой системой
+- Чтение файлов
+- Запись файлов
+
+8 Классы и объекты
 - Understanding program scope
 - Forming multiple classes
 - Extending an existing class
@@ -58,13 +69,4 @@ Contents
 - Encapsulating properties
 - Constructing object values
 
-7 Importing functions
-- Handling files
-- Reading console input
-- Reading files
-- Writing files
-- Sorting array elements
-- Making array lists
-- Managing dates
-- Formatting numbers
 
