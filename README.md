@@ -1,2 +1,5 @@
 # develobear
-Develobear - learning java
+
+## Learning Python
+
+[lesson001](present/lesson001.html)
