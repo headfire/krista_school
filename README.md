@@ -1,5 +1,12 @@
-# develobear
+# Phyton - факультатив для школьников
 
-## Learning Python
+Книга ["Python - быстрый старт"](books/python_start.pdf) 
+(предоставляется в ознакомительных целях)
+Для использования рекомендуется приобрести в магазинах или издательствах
 
-[lesson001](present/lesson001.html)
+
+
+[Урок 1 - Ввод-вывод](present/lesson001.html)
+
+[Урок 2 - Условия](present/lesson002.html)
+
