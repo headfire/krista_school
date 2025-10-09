@@ -12,4 +12,6 @@
 
 - [Урок 1 - Ввод-вывод](present/lesson001.html)
 - [Урок 2 - Условия](present/lesson002.html)
+- [Урок 3 - Сложные условия](present/lesson003.html)
+- [Урок 4 - Логические значения](present/lesson004.html)
 
