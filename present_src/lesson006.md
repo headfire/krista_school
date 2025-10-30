@@ -72,7 +72,6 @@ for i in range(5):
 Но обычно, если нужно перебрать элементы списка - функция range() не нужна.
 
 ```python
-print(range(5)) # [0,1,2,3,4]
 for userAge in usersAges:
   print(userAge)
 ```
