@@ -76,7 +76,8 @@ dia = [6,1]
 bryam = [3,0]
 tilTowns = [tili, mili, tryam, dia, bryam]
 
-# print(square([0,0],[0,1],[1,0]))
+print('Тест периметра:', perim([0,0],[0,3],[4,0]))
+print('Тест площади:', square([0,0],[0,1],[1,0]))
 
 tilPerimReal = townsPerim(tilTowns)
 print("Реальный периметр:", tilPerimReal)
