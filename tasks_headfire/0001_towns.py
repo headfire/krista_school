@@ -1,0 +1,95 @@
+import math
+
+def quad(x):
+    return x*x
+
+def dist(a, b): 
+    x1 = a[0]
+    y1 = a[1]
+    x2 = b[0]
+    y2 = b[1]
+    return math.sqrt(quad(x2-x1)+quad(y2-y1))
+
+def perim(a, b, c):
+    return dist(a, b) + dist(b, c) + dist(c, a)  
+
+def square(a, b, c):
+    p = perim(a,b,c) / 2
+    ab = dist(a,b)
+    bc = dist(b,c)
+    cb = dist(c,b)
+    return math.sqrt(p*(p-ab)*(p-bc)*(p-cb))
+
+def townsPerim(towns):
+    townsCount = len(towns)
+    summ = 0
+    for i in range(townsCount):
+        iTownA = i
+        iTownB = (i+1) % townsCount
+        d = dist(towns[iTownA], towns[iTownB])
+        print("Calc", iTownA, iTownB, d)
+        summ += d
+    return summ
+
+def townsAllRoads(towns):
+    townsCount = len(towns)
+    summ = 0
+    for i1 in range(0, townsCount-1):
+        for i2 in range(i1, townsCount):
+            iTownA = i1
+            iTownB = i2
+            d = dist(towns[iTownA], towns[iTownB])
+            print("Calc", iTownA, iTownB, d)
+            summ += d
+    return summ        
+
+def townsSquare(towns):
+    townsCount = len(towns)
+    summ = 0
+    for i in range(1, townsCount-1):
+        iTownA = 0
+        iTownB = i
+        iTownC = i+1
+        s = square(towns[iTownA], towns[iTownB], towns[iTownC])
+        print("Calc", iTownA, iTownB, iTownC, s)
+        summ += s 
+    return s
+
+def townsAllTriangles(towns):
+    townsCount = len(towns)
+    summ = 0
+    for i1 in range(0, townsCount-2):
+        for i2 in range(i1+1, townsCount-1):
+            for i3 in range(i2+1, townsCount):
+                iTownA = i1
+                iTownB = i2
+                iTownC = i3
+                s = square(towns[iTownA], towns[iTownB], towns[iTownC])
+                print("Calc", iTownA, iTownB, iTownC, s)
+                summ += s 
+    return summ
+
+tili = [0,2]
+mili = [2,5]
+tryam = [6,4]
+dia = [6,1]
+bryam = [3,0]
+tilTowns = [tili, mili, tryam, dia, bryam]
+
+tilPerimReal = townsPerim(tilTowns)
+print("Реальный периметр:", tilPerimReal)
+tilPerimUkas = townsAllRoads(tilTowns)
+print("Периметр по указу:", tilPerimUkas)
+kPerim = tilPerimUkas/tilPerimReal
+print("Больше в ", kPerim, "раз")
+
+tilSquareReal = townsSquare(tilTowns)
+print("Реальная площадь:", tilSquareReal)
+tilSquareUkas = townsAllTriangles(tilTowns)
+print("Площадь по указу:", tilSquareUkas)
+kSquare = tilSquareUkas/tilSquareReal
+print("Больше в ", kSquare, "раз")
+
+
+
+    
