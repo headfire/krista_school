@@ -77,6 +77,8 @@ tryam = [6,4]
 dia = [6,1]
 bryam = [3,0]
 tilTowns = [tili, mili, tryam, dia, bryam]
+#tilTowns = [tili, mili, tryam, dia]
+#tilTowns = [tili, mili, tryam]
 
 
 tilPerimReal = townsPerim(tilTowns)
