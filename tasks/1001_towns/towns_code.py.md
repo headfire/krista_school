@@ -1,3 +1,5 @@
+
+```python
 import math
 
 def quad(x):
@@ -96,6 +98,7 @@ kPerim = tilPerimUkas/tilPerimReal
 print("Периметр больше в ", kPerim, "раз")
 kSquare = tilSquareUkas/tilSquareReal
 print("Площадь больше в ", kSquare, "раз")
+```
 
 
     

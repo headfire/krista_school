@@ -8,5 +8,5 @@
 - [Урок 6 - Контейнерные типы данных - Списки](present/lesson006.html)
 - [Урок 7 - Процедуры и функции](present/lesson007.html)
 
-- 1001 - ТилиМилиТрямДия - [Задача](tasks/0001_towns/towns_task.html) - [Разбор](tasks/0001_towns/towns_answer.html) - [Код](tasks/0001_towns/towns_code.py)
+- 1001 - ТилиМилиТрямДия - [Задача](tasks/1001_towns/towns_task.html) - [Разбор](tasks/1001_towns/towns_answer.html) - [Код](tasks/1001_towns/towns_code.py.html)
 
