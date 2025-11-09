@@ -4,10 +4,8 @@ def quad(x):
     return x*x
 
 def dist(a, b): 
-    x1 = a[0]
-    y1 = a[1]
-    x2 = b[0]
-    y2 = b[1]
+    [x1, y1] = a
+    [x2, y2] = b
     return math.sqrt(quad(x2-x1)+quad(y2-y1))
 
 def perim(a, b, c):
@@ -69,6 +67,10 @@ def townsAllTriangles(towns):
                 summ += s 
     return summ
 
+a = [0,0]; b = [0,3]; c = [4,0]
+print('Тест периметра:', perim(a, b, c)) # 12
+print('Тест площади:', square(a, b, c)) # 6
+
 tili = [0,2]
 mili = [2,5]
 tryam = [6,4]
@@ -76,8 +78,6 @@ dia = [6,1]
 bryam = [3,0]
 tilTowns = [tili, mili, tryam, dia, bryam]
 
-print('Тест периметра:', perim([0,0],[0,3],[4,0]))
-print('Тест площади:', square([0,0],[0,1],[1,0]))
 
 tilPerimReal = townsPerim(tilTowns)
 print("Реальный периметр:", tilPerimReal)
