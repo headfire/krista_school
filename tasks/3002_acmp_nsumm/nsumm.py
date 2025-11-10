@@ -1,5 +1,3 @@
-import sys
-
 n = int(input())
 sum = 0
 if n > 0:

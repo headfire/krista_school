@@ -2,7 +2,7 @@
 marp: true
 ---
 
-# Задача ТиллиМиллиТрямДия - Разбор
+# Задача ТилиМилиТрямДия - Разбор
 
 ---
 
@@ -76,7 +76,7 @@ def townsAllRoads(towns):
     townsCount = len(towns)
     summ = 0
     for i1 in range(0, townsCount-1):
-        for i2 in range(i1, townsCount):
+        for i2 in range(i1+1, townsCount):
             iTownA = i1
             iTownB = i2
             d = dist(towns[iTownA], towns[iTownB])
